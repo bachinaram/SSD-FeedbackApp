@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Critique Web Application</title>
+    <meta charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jsFiles/index.js"></script>
+    <script src="jsFiles/critique-feedback.js"></script>
+    <link rel="stylesheet" href="cssFiles/critique-feedback.css" />
+    <link rel="stylesheet" href="cssFiles/critique-header.css" />
+    <link rel="stylesheet" href="cssFiles/critique-main.css" />
+  </head>
+  <body>
+    <div class="bg2">
+      <div id="header"></div>
+      <div class="centered">
+        <h1 class="inblock">
+          Student Feedback Form <br />
+          <span>Fill out the details</span>
+        </h1>
+        <form>
+          <p>
+            <label>Respondent</label><br />
+            <input type="text" name="first_name" class="inp" />
+          </p>
+          <p>
+            <label>Subject</label><br />
+            <select name="Subject" id="Subject" class="inp">
+              <option disabled="disabled" selected="selected"
+                >Click Here For Dropdown</option
+              >
+              <option value="OS">Operating Systems</option>
+              <option value="SSD">Software Systems Design</option>
+              <option value="CN">Computer Networks</option>
+              <option value="SMAI">Statistical Methods In AI</option>
+            </select>
+          </p>
+          <p id="result"></p>
+          <p>
+            <label>Review</label>
+            <br />
+            <textarea
+              id="comment"
+              name="w3review"
+              rows="4"
+              cols="50"
+              class="inp"
+            >
+            </textarea>
+            <br />
+          </p>
+
+          <p id="imge">Rating<br /></p>
+          <p>
+            <button id="sub" type="button" class="btn">Submit >></button>
+          </p>
+        </form>
+      </div>
+      <span class="myblock"></span>
+      <div class="card">
+        <div class="scrolling-wrapper">
+          <h5>Ram</h5>
+          <h3>Operating System</h3>
+          <pre>Prof - OSer1
+    Rating - 5<br>Suject thaught with real time examples
+  *Assignments huge
+  *Too many topics final exam</pre>
+        </div>
+      </div>
+      <div class="card">
+        <div class="scrolling-wrapper">
+          <h5>RP</h5>
+          <h3>SMAI</h3>
+          <pre>Prof - SMAIer1
+    Rating - 3<br>Suject thaught with real time examples
+  *Assignments are too much to handle
+  *Too many topics for final exam</pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

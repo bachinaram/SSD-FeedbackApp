@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.bgs {
+  height: 800px;
+  width: 100%;
+  padding: 6px;
+  background: linear-gradient(to bottom left, #6666ff 0%, #33cccc 100%);
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 120px;
+}
+
+.fnt1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  padding-left: 120px;
+}
+
+.mainimgs:not(.bgs) {
+  width: 10%;
+  height: 20%;
+  display: block;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* fraction*/
+}
+
+div.chd1 img:not(.bgs) {
+  width: 25%;
+  float: left;
+  height: 30%;
+  padding-left: 120px;
+  font-family: "Roboto", sans-serif;
+}
+
+div.chd2 img:not(.bgs) {
+  width: 100%;
+  float: right;
+  height: 100%;
+}
+
+button.btnn {
+  color: white;
+  border-color: #b7266a;
+  background: #d52c82;
+  border-radius: 6px;
+  box-shadow: none;
+  padding: 15px 32px;
+  margin-bottom: 125px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  padding: 6px;
+  background-color: #242629;
+  color: white;
+}
+hr {
+  width: 50%;
+  background-color: grey;
+  border-width: 4px;
+}
+
+.yellow {
+  color: yellow;
+}

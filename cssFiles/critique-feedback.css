@@ -1,0 +1,89 @@
+.bg2 {
+  height: 140%;
+  width: 100%;
+  padding: 6px;
+  background: linear-gradient(to bottom left, #6666ff 0%, #33cccc 100%);
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: scroll;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 1rem;
+  padding: 20px;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: #004882;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.centered {
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 50%;
+  padding: 10px;
+  background-color: #004882;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  color: black;
+}
+
+span {
+  margin-top: 1px;
+  font-size: x-small;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+  padding-left: 120px;
+}
+
+.inblock {
+  background-color: #002542;
+  margin: -10px -10px 10px -10px;
+  color: white;
+  font: normal 30px "Bitter", serif;
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inp {
+  width: 50%;
+  background-color: #0563af;
+  color: white;
+}
+
+.btn {
+  background-color: #002542;
+  width: 20%;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+select {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  width: 50px;
+  font-size: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+select option {
+  padding: 10px;
+  color: white;
+}
