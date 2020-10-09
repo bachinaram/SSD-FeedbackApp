@@ -110,13 +110,13 @@ $(function() {
   });$("#onePic").empty();  imgloop()
 */
 //post.html image looping and fade n and fadeout
-var jpgs = ["jaipur1.jpg", "jaipur2.jpg","jaipur3.jpg"];
+var jpgs = ["jaipur1.jpg", "jaipur2.jpg", "jaipur3.jpg"];
 $(function imgloop() {
-  $.each(jpgs,function(index,value){
+  $.each(jpgs, function(index, value) {
     $("#onePic").append(
-      '<img src="images/'+value+'" class="mainimg" alt="Hawa Mahal"/>'
-    )
-  })
+      '<img src="images/' + value + '" class="mainimg" alt="Hawa Mahal"/>'
+    );
+  });
 });
 
 $(function looper() {
