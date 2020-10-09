@@ -107,5 +107,21 @@ $(function() {
     $("#sub").click(function(){
         $(".myblock").append("<p>Test</p>");
     });
-  });
+  });$("#onePic").empty();  imgloop()
 */
+//post.html image looping and fade n and fadeout
+var jpgs = ["jaipur1.jpg", "jaipur2.jpg","jaipur3.jpg"];
+$(function imgloop() {
+  $.each(jpgs,function(index,value){
+    $("#onePic").append(
+      '<img src="images/'+value+'" class="mainimg" alt="Hawa Mahal"/>'
+    )
+  })
+});
+
+$(function looper() {
+  $("#onePic")
+    .fadeIn(1000)
+    .fadeOut(1000);
+  looper();
+});
